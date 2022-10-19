@@ -53,7 +53,7 @@ a {
 
 .main {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 4rem;
     text-align: center;
     height: auto;
@@ -67,7 +67,7 @@ a {
 }
 
 .main p {
-    font-size: 30px;
+    font-size: 25px;
     margin: 75px 0;
 }
 
@@ -98,5 +98,11 @@ a {
 }
 
 .main-image {
-    height: 75%;
+    width: 100%;
+}
+
+.tools {
+    background-color: #C9DBFF;
+    height: 500px;
+    width: 100%;
 }
