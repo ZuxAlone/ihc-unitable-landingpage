@@ -28,7 +28,7 @@ body {
     margin: 0 30px;
 }
 
-.nav-list a {
+a {
     text-decoration: none;
     color: #000000;
     margin: 0 20px;
@@ -38,14 +38,65 @@ body {
     color: #FFFFFF;
 }
 
-.button {
-    -webkit-text-fill-color: #FFFFFF;
+.button-nav {
     background-color: #3F4E6A;
+    color: #FFFFFF;
     border: 2px solid black;
     border-radius: 8px;
-    padding: 3px 25px;
+    padding: 5px 25px;
+    word-wrap: break-word;
 }
 
-.button:hover {
+.button-nav:hover {
     -webkit-text-fill-color: #C9DBFF;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 4rem;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    padding: 50px 200px;
+}
+
+.main h1 {
+    font-size: 50px;
+    margin: 50px 0;
+}
+
+.main p {
+    font-size: 30px;
+    margin: 75px 0;
+}
+
+.button-primario {
+    background-color: #3F4E6A;
+    color: #FFFFFF;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 25px 35px;
+    word-wrap: normal;
+}
+
+.button-primario:hover {
+    -webkit-text-fill-color: #C9DBFF;
+}
+
+.button-secundario {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 25px 35px;
+    word-wrap: normal;
+}
+
+.button-secundario:hover {
+    -webkit-text-fill-color: #C9DBFF;
+}
+
+.main-image {
+    height: 75%;
 }
