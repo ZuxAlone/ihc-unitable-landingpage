@@ -103,6 +103,41 @@ a {
 
 .tools {
     background-color: #C9DBFF;
-    height: 500px;
+    height: auto;
     width: 100%;
+}
+
+.tools-divs {
+    height: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.tools .tools-divs:nth-of-type(odd) {
+    background-color: #C9DBFF;
+}
+
+.tools .tools-divs:nth-of-type(even) {
+    background-color: #FFFFFF;
+}
+
+.round-img {
+    border-radius: 100%;
+}
+
+input {
+    border-radius: 5px;
+    border: 2px solid #000000;
+    background-color: #FFFFFF;
+    padding: 6px 42px 6px 42px;
+}
+
+input[type=button] {
+    padding: 14px 40px 14px 40px;
+    background-color: rgba(30, 30, 30, 0.75);
+    color: #FFFFFF;
+}
+
+td, th {
+    text-align: center;
 }
