@@ -151,3 +151,21 @@ a {
 .companies-main-div {
     text-align: center;
 }
+
+#testimonies {
+    padding: 40px;
+    text-align: center;
+}
+
+.testimonies-divs {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px 0px 20px;
+}
+
+.person_img {
+    border-radius: 100%;
+    padding: 10px 0px 10px 0px;
+}
