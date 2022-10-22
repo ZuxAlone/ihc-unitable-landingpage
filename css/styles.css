@@ -139,3 +139,15 @@ a {
 .tools-content {
     text-align: left;
 }
+
+#companies {
+    padding: 20px;
+}
+
+.companies-section-title {
+    text-align: center;
+}
+
+.companies-main-div {
+    text-align: center;
+}
