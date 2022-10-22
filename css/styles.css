@@ -71,6 +71,10 @@ a {
     margin: 75px 0;
 }
 
+.main-buttons {
+    display: flex;
+}
+
 .button-primario {
     background-color: #3F4E6A;
     color: #FFFFFF;
@@ -101,43 +105,37 @@ a {
     width: 100%;
 }
 
-.tools {
-    background-color: #C9DBFF;
+.section {
     height: auto;
     width: 100%;
 }
 
-.tools-divs {
-    height: auto;
-    padding-top: 25px;
-    padding-bottom: 25px;
+.section:nth-of-type(odd) {
+    background-color: #FFFFFF;
 }
 
-.tools .tools-divs:nth-of-type(odd) {
+.section:nth-of-type(even) {
     background-color: #C9DBFF;
 }
 
-.tools .tools-divs:nth-of-type(even) {
-    background-color: #FFFFFF;
+#tools {
+    padding: 10px;
 }
 
-.round-img {
-    border-radius: 100%;
+.tools-divs {
+    display: flex;
+    padding: 10px;
 }
 
-input {
-    border-radius: 5px;
-    border: 2px solid #000000;
-    background-color: #FFFFFF;
-    padding: 6px 42px 6px 42px;
+.tools-divs-components {
+    padding: 0px 10px 0px 10px;
 }
 
-input[type=button] {
-    padding: 14px 40px 14px 40px;
-    background-color: rgba(30, 30, 30, 0.75);
-    color: #FFFFFF;
+.tools-title {
+    padding-bottom: 20px;
+    text-align: left;
 }
 
-td, th {
-    text-align: center;
+.tools-content {
+    text-align: left;
 }
