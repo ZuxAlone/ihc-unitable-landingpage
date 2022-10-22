@@ -23,9 +23,12 @@ body {
 }
 
 .nav-list {
-    display: flex;
     list-style: none;
     margin: 0 30px;
+}
+
+.nav .nav-list {
+    display: flex;
 }
 
 a {
@@ -197,6 +200,49 @@ input[type=button] {
     color: #FFFFFF;
 }
 
+
+.footer-table .logo {
+    margin-left: 0;
+}
+
 .join-btn-div {
     padding-left: 60px;
+}
+
+footer {
+    background-color: #000000;
+    bottom: 0;
+    width: 100%;
+    padding: 15px 30px 15px 30px;
+}
+
+.nav-footer {
+    color: #FFFFFF;
+}
+
+.nav-footer a {
+    color: #FFFFFF;
+}
+
+td .nav {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.footer-table {
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+#footer-table-right {
+    align-items: center;
+    justify-content: right;
+    width: 100%;
+}
+
+#footer-table-left {
+    align-items: center;
+    justify-content: left;
+    width: 100%;
 }
