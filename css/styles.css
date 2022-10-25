@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    max-width: 100%;
 }
 
 .nav {
@@ -16,6 +17,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 100%;
 }
 
 .logo {
@@ -25,6 +27,8 @@ body {
 .nav-list {
     list-style: none;
     margin: 0 30px;
+    max-width: 100%;
+    align-items: center;
 }
 
 .nav .nav-list {
@@ -132,6 +136,11 @@ a {
 
 .tools-divs-components {
     padding: 0px 10px 0px 10px;
+    max-width: 100%;
+}
+
+.lr-image {
+    max-width: 100%;
 }
 
 .tools-title {
