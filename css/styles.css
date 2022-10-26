@@ -85,7 +85,10 @@ a {
 }
 
 .main-buttons input[type=button] {
-    margin: 0 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     white-space: normal;
     width: 150px;
 
@@ -220,8 +223,7 @@ input {
 
 input[type=text], input[type=email] {
     background-color: #FFFFFF;
-    padding: 6px 12px;
-    padding: 0 15px;
+    padding: 6px 0;
 }
 
 input[type=button] {
